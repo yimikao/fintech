@@ -18,11 +18,13 @@ import github.com/yimikao/fintech/flutterwave
 
 func main() {
 
+    // initiate sdk
     cl, err := flutterwave.New("secret_key")
     if err != nil {
         log.Fatal(err)
     }
     
+    // make a request to the target API
     ts, err := cl.Transaction.GetByID(context.Background(), "transaction_id")
     if err != nil {
         log.Fatal(err)
