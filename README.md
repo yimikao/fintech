@@ -28,6 +28,9 @@ func main() {
     }
   
     json.NewEncoder(os.Stdout).Encode(ts)
+    .
+    .
+    ....
     
 }
 ```
