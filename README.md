@@ -23,7 +23,7 @@ func main() {
         log.Fatal(err)
     }
     
-    ts, _, err := cl.Transaction.GetByID(context.Background(), "transaction_id")
+    ts, err := cl.Transaction.GetByID(context.Background(), "transaction_id")
     if err != nil {
         log.Fatal(err)
     }
@@ -37,5 +37,5 @@ func main() {
 ```
 ## Built by 
 
-* Damilola Olayinka - [twitter](https://twitter.com/unimppressed) [GitHub](https://github.com/yimikao)
+* Damilola Olayinka - [twitter](https://twitter.com/unimppressed) [gitHub](https://github.com/yimikao)
 
