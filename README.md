@@ -1,6 +1,7 @@
 ## Introduction
 
 [Go](https://golang.org) SDK for different Nigerian fintechs. It allows developers inteface with APIs of these companies in their applications.
+If you have anything to add to this, please send in a PR as it will only be working on this in my free time.
 
 ## Installation 
 
