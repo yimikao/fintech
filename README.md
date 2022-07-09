@@ -17,6 +17,7 @@ package main
 import github.com/yimikao/fintech/flutterwave
 
 func main() {
+
     cl, err := flutterwave.New("secret_key")
     if err != nil {
         log.Fatal(err)
