@@ -9,7 +9,7 @@ Run the following command to install Horus on your project:
 ```bash
 go get github.com/yimikao/fintech
 ```
-### Initiate SDK
+### How to use SDK
 
 ```go
 package main
